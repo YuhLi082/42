@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+ 
+[tool.poetry]
+name = "matrix-loading"
+version = "0.1.0"
+description = "Data analysis program demonstrating package management with Poetry"
+authors = ["yuhli"]
+ 
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+numpy = "^1.24"
+matplotlib = "^3.7"
+requests = "^2.28"
+ 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^23.0"
+flake8 = "^6.0"

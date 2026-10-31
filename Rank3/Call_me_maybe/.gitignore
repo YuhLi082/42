@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+*.egg-info/
+
+# Generated at review time; must not be committed (subject, VIII)
+data/output/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

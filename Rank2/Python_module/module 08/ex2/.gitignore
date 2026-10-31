@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+venv/
+matrix_env/
+matrix_analysis.png
+.DS_Store
